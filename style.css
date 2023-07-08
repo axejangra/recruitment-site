@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.navbar{
+    background: rgb(131,58,180);
+background: linear-gradient(248deg, rgba(131,58,180,1) 0%, rgba(253,115,29,1) 50%, rgba(252,176,69,1) 100%);
+}
 
 
 
@@ -158,3 +162,45 @@ h1 {
         margin-bottom: 20px;
       }
     }
+
+    .search-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .main-box {
+    max-width: 450px;
+      }
+      .listbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .listbox2{
+        max-width: 600px;
+      }
+      .search-form input[type="text"] {
+        width: 200px;
+        padding: 5px;
+      }
+      .search-form select {
+        border-radius: 5px;
+        padding: 5px;
+      }
+      .search-form button {
+        padding: 2px 10px;
+        box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+      }
+      /* CSS styling for candidate list */
+      .candidate-list {
+        list-style-type: none;
+        padding: 0;
+      }
+      .candidate-list li {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #f2f2f2;
+        box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+      }

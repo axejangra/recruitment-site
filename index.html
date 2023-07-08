@@ -15,14 +15,10 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-
-    <style>
-      /* CSS styles for the homepage */
-    </style>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg " style="background-color: rgb(217, 203, 250);">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Online Recruitment Solution</a>
           <button
@@ -39,35 +35,36 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <button onclick="window.location.href = 'login.html';" class=" btn btn-primary">
+            
+              <button
+                onclick="window.location.href = 'login.html';"
+                class="btn btn-primary"
+              >
                 Login
               </button>
             </ul>
-            
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <button
+              class="btn btn-outline-success"
+              onclick="window.location.href ='candidateSearch.html';"
+            >
+              Search For Candidates
+            </button>
           </div>
         </div>
       </nav>
     </header>
 
-    <section class="hero ">
+    <section class="hero">
       <div class="left slideanimationup">
-        <h1>Get Your Dream Job <br><span class="text-primary"><h1>TODAY</h1></span></h1>
+        <h1>
+          Get Your Dream Job <br /><span class="text-primary"
+            ><h1>TODAY</h1></span
+          >
+        </h1>
         <p>Efficiently find the right talent for your organization</p>
       </div>
       <div class="right slideanimationup">
@@ -76,7 +73,7 @@
     </section>
 
     <div class="container">
-      <div class="featureSection ">
+      <div class="featureSection">
         <div class="feature">
           <img src="seo.png" alt="Feature 1" />
           <div class="feature-text">
@@ -112,29 +109,68 @@
       </div>
     </div>
     <div class="container">
-        <div class="benefits">
-            <div class="benefit">
-              <h3>Improved Efficiency</h3>
-              <p>Save time, effort, and resources in the recruitment process.</p>
-            </div>
-    
-            <div class="benefit">
-              <h3>Enhanced Collaboration</h3>
-              <p>
-                Work seamlessly with your team members and share feedback
-                efficiently.
-              </p>
-            </div>
-    
-            <div class="benefit">
-              <h3>Scalability</h3>
-              <p>
-                Adapt and scale the recruitment solution to match your
-                organization's growth.
-              </p>
-            </div>
-          </div>
+      <div class="benefits">
+        <div class="benefit">
+          <h3>Improved Efficiency</h3>
+          <p>Save time, effort, and resources in the recruitment process.</p>
+        </div>
+
+        <div class="benefit">
+          <h3>Enhanced Collaboration</h3>
+          <p>
+            Work seamlessly with your team members and share feedback
+            efficiently.
+          </p>
+        </div>
+
+        <div class="benefit">
+          <h3>Scalability</h3>
+          <p>
+            Adapt and scale the recruitment solution to match your
+            organization's growth.
+          </p>
+        </div>
+      </div>
     </div>
+        <!-- Footer -->
+        <footer
+          class="mt-5 text-center text-white"
+          style="
+            background: rgb(131, 58, 180);
+            background: linear-gradient(
+              248deg,
+              rgba(131, 58, 180, 1) 0%,
+              rgba(253, 115, 29, 1) 50%,
+              rgba(252, 176, 69, 1) 100%
+            );
+          "
+        >
+          <!-- Grid container -->
+          <div class="container">
+            <hr class="my-5" />
+
+            <!-- Section: Text -->
+            <section class="mb-5">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <p class="text-center">
+                    Welcome to our premier recruitment site, your one-stop destination for connecting talented individuals with exciting career opportunities. At our recruitment site, we are dedicated to helping job seekers and employers find their perfect match
+                  </p>
+                </div>
+              </div>
+            </section>
+          
+            <!-- Section: Social -->
+          </div>
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © 2023 Copyright:
+            <a class="text-white" href="#">OnlineRecruitmentSolutions.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
 
     <script src="index.js"></script>
   </body>

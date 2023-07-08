@@ -25,3 +25,5 @@ const observer2 = new IntersectionObserver(entries => {
   
   observer.observe(document.querySelector('.benefits'));
   observer2.observe(document.querySelector('.featureSection'));
+
+ 
